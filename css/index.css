@@ -1,0 +1,63 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    align-items: center;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+div.post{
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 450px;
+}
+img{
+    padding: 5px;
+    width: 100%;
+    border-radius: 20px;
+}
+div.comment{
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+}
+body{
+    background: coral;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+    align-items: center;
+}
+nav div.search-container > button{
+    box-sizing: border-box;
+    height: 30px;
+    width: 23%;
+    margin:0;
+    padding: 5px;
+    border: 1px solid coral;
+    cursor: pointer;
+}
+div h3 {
+    color: gray;
+  }
+div ~ h3 {
+    color: green;
+  }
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
