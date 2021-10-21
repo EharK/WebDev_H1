@@ -1,9 +1,9 @@
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: column;
     background: white;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     padding: 60px;
     margin-bottom: 50px;
     margin-top: 50px;
@@ -14,7 +14,7 @@
     background: rgba(255, 188, 44, 0.493)
 }
 
-div.post{
+div.post {
     padding: 2px;
     border: 1px solid black;
     border-radius: 20px;
@@ -22,44 +22,59 @@ div.post{
     background: rgba(255, 255, 255, 0.5)
     
 }
-img{
+img {
     padding: 5px;
     width: 100%;
     border-radius: 20px;
 }
-div.comment{
+div.comment {
     padding: 2px;
     border: 1px solid black;
     border-radius: 20px;
     width: 400px;
     background: rgb(255, 255, 255, 0.5)
 }
-body{
+body {
     background: rgb(230, 188, 151);
+    margin: 0;
     background-size: 100px;
     z-index: -1;
 }
-header{
-    display: flex;
-    flex-direction: column;
+header {
     position: fixed;
     width: 100%;
     top: 1;
     z-index: 5;
-    align-items: center;
+    background-color: rgb(65, 65, 65);
 }
-nav div.search-container > button{
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav div.search-container > input {
+    width: 85%;
+}
+
+nav div.search-container > button {
     box-sizing: border-box;
-    height: 30px;
-    width: 26%;
-    margin:0;
-    padding: 5px;
     border: 1px solid lightblue;
     cursor: pointer;
 }
 
 nav div.search-container {
-    width: 300px;
+    display: flex;
+    place-content: space-between;
+    width: 25%;
+    padding: 10px;
+}
+
+div.flex-container p {
+    display: flex;
+    place-content: end;
+    margin: 0 16px 0 0;
 }
 
 div h1 {
@@ -76,7 +91,7 @@ div h3 {
 div ~ h3 {
     color: rgb(255, 123, 0);
   }
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;

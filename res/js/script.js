@@ -1,17 +1,27 @@
 $(function () {
 
-    $.get("res/json/posts.json", function(json_obj) {
+    $.get("https://api.npoint.io/66985d0c9e57529863de", function(json_obj) {
         console.log(json_obj)
         for (let obj of json_obj) {
             console.log(obj)
-            let div = $('<div class="post">');
+
+            let section = $('<section>');
+            let div = $('<div class="flex-container">');
+            let div_post = $('<div class="post">');
+            let div_img = $('<div class="img">');
+            let div_comment = $('<div class="comment">');
+            let p1 = $('<p>').text(obj.Author_name);
+            let p2 = $('<p>').text(obj.Time);
             let h1 = $('<h1>').text(obj.title);
-            let p = $('<p>').text(obj.body);
+            
+            div_post.append(p1);
+            div_post.append(p2);
+            div_post.append(h1);
+            div.append(div_post).append(div_img).append(div_comment);
+            section.append(div) 
 
-            div.append(h1);
-            div.append(p);
-
-            $('body').append(div);
+            $('body').append(section);
+            
         }
     })
 
