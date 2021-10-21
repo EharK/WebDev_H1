@@ -1,0 +1,1 @@
+To use images in JSON file, we first convert the images to base64 string and then we can store it easily in .json file.
