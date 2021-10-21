@@ -1,0 +1,2 @@
+To validate the correctness of our JSON file we used the free webpage:
+https://jsonlint.com/
