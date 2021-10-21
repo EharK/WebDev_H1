@@ -13,15 +13,16 @@ $(function () {
             let p1 = $('<p>').text(obj.Author_name);
             let p2 = $('<p>').text(obj.Time);
             let h1 = $('<h1>').text(obj.title);
-            
+            let img = $('<img>').attr("src", obj.body);
+
             div_post.append(p1);
             div_post.append(p2);
             div_post.append(h1);
+            div_img.append(img);
             div.append(div_post).append(div_img).append(div_comment);
             section.append(div) 
 
             $('body').append(section);
-            
         }
     })
 

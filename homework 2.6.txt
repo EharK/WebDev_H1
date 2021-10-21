@@ -1,1 +1,7 @@
-To use images in JSON file, we first convert the images to base64 string and then we can store it easily in .json file.
+We can use the image in json by writing the directory of the image into json body part and then defining it in js with a line of code.
+
+json line:
+	"body": "media/san.jpg"
+
+script line:
+	let img = $('<img>').attr("src", obj.body);
