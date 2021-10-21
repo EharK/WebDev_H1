@@ -1,69 +1,69 @@
 [
     {
-    "Author name": "Adam",
+    "AuthorName": "Adam",
     "id": 1,
     "Time":"21-8-2021 19:10",
     "title": "Tonight",
-    "body": "https://www.wallpapers13.com/wp-content/uploads/2016/04/Landscape-Water-House-LofotenMorningMoskenesoya-HD-Desktop-Wallpaper-915x515.jpg"
+    "body": "media/owl.jpg"
     },
     {
-    "Author name": "John",
+    "AuthorName": "John",
     "id": 2,
     "Time":"25-8-2021 15:16",
     "title": "Cool BEANS!",
     "body": " "
     },
     {
-    "Author name": "Adam",
+    "AuthorName": "Adam",
     "id": 3,
     "Time":"2-9-2021 9:30",
     "title": "am IN A SWAMP",
-    "body": " "
+    "body": "media/shrek.jpg"
     },
     {
-    "Author name": "Bella",
+    "AuthorName": "Bella",
     "id": 4,
     "Time":"8-9-2021 18:18",
     "title": "I'm a cow",
     "body": " "
     },
     {
-    "Author name": "Zoe",
+    "AuthorName": "Zoe",
     "id": 5,
     "Time":"10-9-2021 17:10",
     "title": "With my cat",
     "body": " "
     },
     {
-    "Author name": "Adam",
+    "AuthorName": "Adam",
     "id": 6,
     "Time":"16-9-2021 21:26",
     "title": "Greetings from Paris",
-    "body": " "
+    "body": "media/san.jpg"
     },
     {
-    "Author name": "Emma",
+    "AuthorName": "Emma",
     "id": 7,
     "Time":"24-9-2021 11:20",
     "title": "Hi i'm new",
     "body":" "
     },
     {
-    "Author name": "Zoe",
+    "AuthorName": "Zoe",
     "id": 8,
     "Time":"6-10-2021 19:30",
     "title": "Who let the dogs out?",
     "body": " "
     },
     {
-    "Author name": "Bella",
+    "AuthorName": "Bella",
     "id": 9,
     "Time":"13-10-2021 16:25",
     "title": "Sunset with my dog",
     "body": " "
     },
     {
-    "Author name": "Johnny",
+    "AuthorName": "Johnny",
     "id": 10,
     "Time":"21-10-2021 16:30",
     "title": "Johnny, Johnny",
