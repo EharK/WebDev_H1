@@ -55,20 +55,26 @@ nav {
 }
 
 nav div.search-container > input {
-    width: 85%;
+    width: 80%;
+
+}
+.searchbox{
+    width: 500px;
 }
 
 nav div.search-container > button {
     box-sizing: border-box;
     border: 1px solid lightblue;
     cursor: pointer;
+ 
 }
 
 nav div.search-container {
     display: flex;
     place-content: space-between;
-    width: 25%;
+    width: 100%;
     padding: 10px;
+
 }
 
 div.flex-container p {
@@ -99,17 +105,17 @@ section {
 
 
 .dropbtn {
-
     border: none;
     cursor: pointer;
   }
 
 .dropdown {
+    margin-right: 7%;
     position: relative;
     vertical-align: middle;
     border-radius: 0px;
-    width: 50px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
 }
 
 .dropdown-content {
